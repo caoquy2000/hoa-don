@@ -1,0 +1,17 @@
+.btn_sdt {
+    font-size: 38px;
+}
+.title_1412 {
+    margin-bottom: 24px;
+}
+.btn_sdt_1412 {
+    animation: sdtAnimate 1s infinite;
+}
+@keyframes sdtAnimate {
+    0% {
+        transform: scale(1.0);
+    }
+    100% {
+        transform: scale(1.5);
+    }
+}
