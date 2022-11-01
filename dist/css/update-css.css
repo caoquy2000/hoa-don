@@ -7,11 +7,35 @@
 .btn_sdt_1412 {
     animation: sdtAnimate 1s infinite;
 }
+.hero-inner {
+    display: flex !important;
+    
+}
+.hero-copy {
+    width: 50% !important;
+}
+.hero-illustration {
+    width: 50% !important;
+}
 @keyframes sdtAnimate {
     0% {
         transform: scale(1.0);
     }
     100% {
         transform: scale(1.5);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .hero-inner {
+        flex-wrap: wrap !important;
+    }
+    .hero-copy {
+        width: 100% !important;
+        margin-bottom: 20px;
+    }
+    .hero-illustration {
+        width: 100% !important;
+        margin-top: initial;
     }
 }
